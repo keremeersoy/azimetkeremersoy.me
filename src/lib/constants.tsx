@@ -1,4 +1,12 @@
-import { Github, Linkedin, Mail, Network, Shell } from "lucide-react";
+import {
+  Folders,
+  Github,
+  Library,
+  Linkedin,
+  Mail,
+  Network,
+  Shell,
+} from "lucide-react";
 import { ReactElement } from "react";
 
 type Link = {
@@ -42,4 +50,6 @@ export const LINKS: Link[] = [
     icon: <Shell size={16} />,
   },
   { href: "/experience", label: "Experience", icon: <Network size={16} /> },
+  { href: "/projects", label: "Projects", icon: <Folders size={16} /> },
+  { href: "/education", label: "Education", icon: <Library size={16} /> },
 ];
