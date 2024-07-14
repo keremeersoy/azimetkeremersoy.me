@@ -1,3 +1,4 @@
+import TypingAnimation from "@/components/magicui/typing-animation";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Link from "next/link";
 
@@ -20,7 +21,12 @@ export default function Home() {
       <hr className="my-8" />
 
       <div className="flex flex-col gap-4">
-        <h2 className="text-2xl font-semibold">About Me</h2>
+        {/* <h2 className="text-2xl font-semibold">About Me</h2> */}
+        <TypingAnimation
+          className="text-2xl font-bold text-black dark:text-white"
+          text="About Me"
+        />
+
         <p>
           Hello! I am Azimet Kerem Ersoy, a 21-year-old web developer and a
           fourth-year student at Kırıkkale University Computer Engineering. I
