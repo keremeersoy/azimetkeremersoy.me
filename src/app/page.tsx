@@ -73,7 +73,7 @@ export default function Home() {
           brought project owner Sacit Altun Bey&rsquo;s vision to life. This
           project, targeting end users, is currently live and actively used. The
           technologies I employed in this project include Next.js, tRPC,
-          TypeScript, Tailwind CSS, MySQL, Prisma ORM, and NextAuth.
+          TypeScript, Tailwind CSS, MySQL, Prisma ORM, iyzico and NextAuth.
         </p>
         <p>
           In addition to my professional endeavors, I am committed to volunteer
