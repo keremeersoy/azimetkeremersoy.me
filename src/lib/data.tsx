@@ -61,6 +61,20 @@ export const timelineData = [
     year: "2022",
     logs: [
       {
+        title: "Leading the Web Team at Google DSC Kırıkkale University",
+        description: `In September 2022, with the onset of the academic year, the {0} was established. As the web team leader, I immersed myself in a dynamic community of aspiring developers and tech enthusiasts.
+
+        This role provided me with an incredible platform to share my knowledge and expertise through engaging talks, insightful presentations, and interactive YouTube live sessions. It was a vibrant hub of innovation and collaboration, where I could both teach and learn, fostering a rich exchange of ideas and skills.
+
+        Although my current priorities lie with my professional and academic commitments, my involvement in this club remains a cherished chapter of my social and professional journey, filled with memorable experiences and valuable connections.`,
+        links: [
+          {
+            url: "https://www.linkedin.com/company/gdsc-kku/",
+            text: "Google Developer Students Club at Kırıkkale University",
+          },
+        ],
+      },
+      {
         title: "SetCrews: Freelance Project Development Experience",
         description: `In September 2022, at the request of Director Sacit Altun, I began working on SetCrews, a comprehensive platform developed for professionals in the film and television industry to connect and conduct job interviews. This was my first freelance project, and it was designed to facilitate networking and job opportunities within the entertainment sector.
 

@@ -65,24 +65,173 @@ export default function Home() {
             web
           </Link>
           , where I tackled and resolved complex challenges using technologies
-          such as Next.js, Firebase Authentication, Firestore, Storage, Material
-          UI, Paddle, and Redux Toolkit.
+          such as{" "}
+          <Link
+            href="https://nextjs.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Next.js
+          </Link>
+          ,{" "}
+          <Link
+            href="https://firebase.google.com/products/auth"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Firebase Authentication
+          </Link>
+          ,{" "}
+          <Link
+            href="https://firebase.google.com/products/firestore"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Firestore
+          </Link>
+          ,{" "}
+          <Link
+            href="https://firebase.google.com/products/storage"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Firebase Storage
+          </Link>
+          ,{" "}
+          <Link
+            href="https://mui.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Material UI
+          </Link>
+          ,{" "}
+          <Link
+            href="https://www.paddle.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Paddle
+          </Link>{" "}
+          and{" "}
+          <Link
+            href="https://redux-toolkit.js.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Redux Toolkit
+          </Link>
+          .
         </p>
         <p>
           I have also worked on a full-stack project with SetCrews, where I
           brought project owner Sacit Altun Bey&rsquo;s vision to life. This
           project, targeting end users, is currently live and actively used. The
-          technologies I employed in this project include Next.js, tRPC,
-          TypeScript, Tailwind CSS, MySQL, Prisma ORM, iyzico and NextAuth.
+          technologies I employed in this project include{" "}
+          <Link
+            href="https://nextjs.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Next.js
+          </Link>
+          ,{" "}
+          <Link
+            href="https://trpc.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            tRPC
+          </Link>
+          ,{" "}
+          <Link
+            href="https://www.typescriptlang.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            TypeScript
+          </Link>
+          ,{" "}
+          <Link
+            href="https://tailwindcss.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Tailwind CSS
+          </Link>
+          ,{" "}
+          <Link
+            href="https://www.mysql.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            MySQL
+          </Link>
+          ,{" "}
+          <Link
+            href="https://www.prisma.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Prisma ORM
+          </Link>
+          ,{" "}
+          <Link
+            href="https://www.iyzico.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            iyzico
+          </Link>{" "}
+          and{" "}
+          <Link
+            href="https://next-auth.js.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            NextAuth
+          </Link>
+          .
         </p>
         <p>
           In addition to my professional endeavors, I am committed to volunteer
-          work and continuous learning. As the Web Team Leader at GDSC KKU, a
-          Google Developer Student Club at Kırıkkale University, I lead a team
-          of developers, fostering a collaborative and innovative environment. I
-          also participated in YetGen, a 12-week program led by Prof. Dr. Erhan
-          Erkut, which provided me with a solid foundation in algorithm
-          development, teamwork, and social innovation.
+          work and continuous learning. As the Web Team Leader at GDSC KKU, a{" "}
+          <Link
+            href="https://www.linkedin.com/company/gdsc-kku/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            Google Developer Student Club at Kırıkkale University
+          </Link>
+          , I lead a team of developers, fostering a collaborative and
+          innovative environment. I also participated in{" "}
+          <Link
+            href="https://yetkingencler.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            YetGen
+          </Link>
+          , a 12-week program led by Prof. Dr. Erhan Erkut, which provided me
+          with a solid foundation in algorithm development, teamwork, and social
+          innovation.
         </p>
         <p>
           Outside of my technical pursuits, I cherish the time spent exploring
