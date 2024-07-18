@@ -20,7 +20,7 @@ const ProjectsPage = () => {
         className="text-2xl font-bold text-black dark:text-white mb-4"
         text="Projects"
       />
-      <div className="flex flex-col gap-4 mb-16">
+      <div className="flex flex-col gap-4">
         {projects_data.map((project, index) => (
           <ProjectCard key={`project_${index}`} project={project} />
         ))}

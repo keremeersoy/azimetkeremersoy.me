@@ -35,7 +35,7 @@ export default function RootLayout({
 
             <div className="w-full mx-auto h-full">
               <ScrollArea className="h-full max-h-dynamic-screen min-h-dynamic-screen overflow-y-auto overflow-x-hidden relative flex w-full flex-col">
-                <div className="z-[1] w-full px-6 pb-8 pt-8 lg:px-8 lg:pb-16 lg:pt-24">
+                <div className="z-[1] w-full px-6 pb-24 pt-8 lg:px-8 lg:pt-24">
                   <div className="mx-auto w-full lg:mb-0 lg:max-w-3xl">
                     <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
 
