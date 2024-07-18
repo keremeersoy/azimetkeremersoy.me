@@ -1,7 +1,7 @@
 import LinkifyDescription from "@/components/linkify-description";
 import TypingAnimation from "@/components/magicui/typing-animation";
 import { OrbitCircle } from "@/components/orbit-circle";
-import { timelineData } from "@/lib/data";
+import { timeline_data } from "@/lib/data";
 import { PlusIcon } from "lucide-react";
 import Image from "next/image";
 import React from "react";
@@ -17,7 +17,7 @@ const ExperiencePage = () => {
         <OrbitCircle />
 
         <div className="flex flex-col items-stretch gap-12">
-          {timelineData.map((item, itemIndex) => (
+          {timeline_data.map((item, itemIndex) => (
             <div
               key={`data_${itemIndex}`}
               className="flex flex-col items-baseline gap-6 md:flex-row md:gap-12"
