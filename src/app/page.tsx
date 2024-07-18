@@ -1,6 +1,6 @@
+import CustomizedLink from "@/components/customized-link";
 import TypingAnimation from "@/components/magicui/typing-animation";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -21,7 +21,6 @@ export default function Home() {
       <hr className="my-8" />
 
       <div className="flex flex-col gap-4">
-        {/* <h2 className="text-2xl font-semibold">About Me</h2> */}
         <TypingAnimation
           className="text-2xl font-bold text-black dark:text-white"
           text="About Me"
@@ -56,78 +55,28 @@ export default function Home() {
           Pepteam in Ankara, where I quickly advanced to become the sole web
           developer. One of my significant achievements at Pepteam was
           integrating our mobile application with the{" "}
-          <Link
-            href="https://www.pepteam.io"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
-            web
-          </Link>
-          , where I tackled and resolved complex challenges using technologies
+          <CustomizedLink href="https://www.pepteam.io">web</CustomizedLink>,
+          where I tackled and resolved complex challenges using technologies
           such as{" "}
-          <Link
-            href="https://nextjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
-            Next.js
-          </Link>
-          ,{" "}
-          <Link
-            href="https://firebase.google.com/products/auth"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
+          <CustomizedLink href="https://nextjs.org/">Next.js</CustomizedLink>,{" "}
+          <CustomizedLink href="https://firebase.google.com/products/auth">
             Firebase Authentication
-          </Link>
+          </CustomizedLink>
           ,{" "}
-          <Link
-            href="https://firebase.google.com/products/firestore"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
+          <CustomizedLink href="https://firebase.google.com/products/firestore">
             Firestore
-          </Link>
+          </CustomizedLink>
           ,{" "}
-          <Link
-            href="https://firebase.google.com/products/storage"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
+          <CustomizedLink href="https://firebase.google.com/products/storage">
             Firebase Storage
-          </Link>
+          </CustomizedLink>
+          , <CustomizedLink href="https://mui.com/">Material UI</CustomizedLink>
           ,{" "}
-          <Link
-            href="https://mui.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
-            Material UI
-          </Link>
-          ,{" "}
-          <Link
-            href="https://www.paddle.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
-            Paddle
-          </Link>{" "}
+          <CustomizedLink href="https://www.paddle.com/">Paddle</CustomizedLink>{" "}
           and{" "}
-          <Link
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
+          <CustomizedLink href="https://redux-toolkit.js.org/">
             Redux Toolkit
-          </Link>
+          </CustomizedLink>
           .
         </p>
         <p>
@@ -135,100 +84,39 @@ export default function Home() {
           brought project owner Sacit Altun Bey&rsquo;s vision to life. This
           project, targeting end users, is currently live and actively used. The
           technologies I employed in this project include{" "}
-          <Link
-            href="https://nextjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
-            Next.js
-          </Link>
-          ,{" "}
-          <Link
-            href="https://trpc.io/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
-            tRPC
-          </Link>
-          ,{" "}
-          <Link
-            href="https://www.typescriptlang.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
+          <CustomizedLink href="https://nextjs.org/">Next.js</CustomizedLink>,{" "}
+          <CustomizedLink href="https://trpc.io/">tRPC</CustomizedLink>,{" "}
+          <CustomizedLink href="https://www.typescriptlang.org/">
             TypeScript
-          </Link>
+          </CustomizedLink>
           ,{" "}
-          <Link
-            href="https://tailwindcss.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
+          <CustomizedLink href="https://tailwindcss.com/">
             Tailwind CSS
-          </Link>
+          </CustomizedLink>
+          , <CustomizedLink href="https://www.mysql.com/">MySQL</CustomizedLink>
           ,{" "}
-          <Link
-            href="https://www.mysql.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
-            MySQL
-          </Link>
-          ,{" "}
-          <Link
-            href="https://www.prisma.io/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
+          <CustomizedLink href="https://www.prisma.io/">
             Prisma ORM
-          </Link>
+          </CustomizedLink>
           ,{" "}
-          <Link
-            href="https://www.iyzico.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
-            iyzico
-          </Link>{" "}
+          <CustomizedLink href="https://www.iyzico.com/">iyzico</CustomizedLink>{" "}
           and{" "}
-          <Link
-            href="https://next-auth.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
+          <CustomizedLink href="https://next-auth.js.org/">
             NextAuth
-          </Link>
+          </CustomizedLink>
           .
         </p>
         <p>
           In addition to my professional endeavors, I am committed to volunteer
           work and continuous learning. As the Web Team Leader at GDSC KKU, a{" "}
-          <Link
-            href="https://www.linkedin.com/company/gdsc-kku/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
+          <CustomizedLink href="https://www.linkedin.com/company/gdsc-kku/">
             Google Developer Student Club at Kırıkkale University
-          </Link>
+          </CustomizedLink>
           , I lead a team of developers, fostering a collaborative and
           innovative environment. I also participated in{" "}
-          <Link
-            href="https://yetkingencler.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
+          <CustomizedLink href="https://yetkingencler.com/">
             YetGen
-          </Link>
+          </CustomizedLink>
           , a 12-week program led by Prof. Dr. Erhan Erkut, which provided me
           with a solid foundation in algorithm development, teamwork, and social
           innovation.

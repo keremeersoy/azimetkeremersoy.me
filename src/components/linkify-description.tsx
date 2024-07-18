@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import CustomizedLink from "./customized-link";
 
 const LinkifyDescription = ({
   description,
@@ -20,15 +21,13 @@ const LinkifyDescription = ({
               const linkIndex = parseInt(part, 10);
               if (!isNaN(linkIndex) && links?.[linkIndex]) {
                 return (
-                  <Link
+                  <CustomizedLink
                     key={index}
                     href={links[linkIndex].url}
                     passHref
-                    className="text-blue-500 hover:underline"
-                    target="_blank"
                   >
                     {links[linkIndex].text}
-                  </Link>
+                  </CustomizedLink>
                 );
               }
               return <React.Fragment key={index}>{part}</React.Fragment>;
