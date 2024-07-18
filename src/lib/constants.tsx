@@ -51,5 +51,5 @@ export const LINKS: Link[] = [
   },
   { href: "/experience", label: "Experience", icon: <Network size={16} /> },
   { href: "/projects", label: "Projects", icon: <Folders size={16} /> },
-  { href: "/education", label: "Education", icon: <Library size={16} /> },
+  // { href: "/education", label: "Education", icon: <Library size={16} /> },
 ];
